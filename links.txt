@@ -1,6 +1,1 @@
 https://colorhunt.co/
-<<<<<<< HEAD
-test
-=======
- egztt
->>>>>>> ebde60ec346851e44773e69003aa3d9a6eead59a

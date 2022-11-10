@@ -20,8 +20,20 @@ ul{
 	list-style: none;
 }
 .footer{
-	background-color: #24262b;
-    padding: 70px 0;
+	/* background-color: #24262b; */
+  /* background: rgb(31,60,136);
+background: linear-gradient(0deg, rgba(31,60,136,1) 45%, rgba(255,255,255,1) 100%);
+    padding: 70px 0; */
+    /* background: #EEEEEE; */
+    background: hsla(212, 15%, 22%, 1);
+
+    background: linear-gradient(90deg, hsla(212, 15%, 22%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(212, 15%, 22%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(212, 15%, 22%, 1) 0%, hsla(0, 0%, 100%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#303841", endColorstr="#FFFFFF", GradientType=1 );
 }
 .footer-col{
    width: 25%;
@@ -29,7 +41,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: #ffffff;
+	color: #000000;
 	text-transform: capitalize;
 	margin-bottom: 35px;
 	font-weight: 500;
@@ -40,7 +52,7 @@ ul{
 	position: absolute;
 	left:0;
 	bottom: -10px;
-	background-color: #e91e63;
+	background-color: #005395;
 	height: 2px;
 	box-sizing: border-box;
 	width: 50px;
@@ -51,10 +63,10 @@ ul{
 .footer-col ul li a, p{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
+	color: #000000;
 	text-decoration: none;
 	font-weight: 300;
-	color: #bbbbbb;
+	color: #000000;
 	display: block;
 	transition: all 0.3s ease;
 }
@@ -92,6 +104,6 @@ ul{
 }
 }
 img{
-	height: 100px;
-	width: 100px;
+	height: 150px;
+	width: 150px;
 }

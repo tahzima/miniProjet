@@ -91,6 +91,7 @@ ul{
     width: 100%;
 }
 }
+<<<<<<< HEAD
 img {
   border: 0px solid #ddd;
   border-radius: 4px;
@@ -99,3 +100,9 @@ img {
 }
 
 
+=======
+img{
+	height: 100px;
+	width: 100px;
+}
+>>>>>>> d0c57954be67b6f4c2ae36365e2fbc7c68f40ccc
